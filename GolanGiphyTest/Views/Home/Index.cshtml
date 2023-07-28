@@ -1,0 +1,22 @@
+﻿@model GolanGiphyTest.Models.GiphyResponse
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    @if(Model.data.Any())
+    {
+        @foreach (Data item in Model.data)
+        {
+            <div class="card m-1" style="width:350px;">
+                <div class="card-body">
+                    <iframe src="@(item.embed_url)"></iframe>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No data available</p>
+    }
+</div>
