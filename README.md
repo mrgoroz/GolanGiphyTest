@@ -1,4 +1,5 @@
 # GolanGiphyTest
-![image](https://github.com/mrgoroz/GolanGiphyTest/assets/22409628/9783ce0f-bb50-4e15-906d-38ec92ea24c8)
+![golangiphytest](https://github.com/mrgoroz/GolanGiphyTest/assets/22409628/b8e3efc1-57b5-4f29-b3a7-567d061e93bf)
+
 In this project used:
 HTTP, Dependency Injection, local cache, asp.net
